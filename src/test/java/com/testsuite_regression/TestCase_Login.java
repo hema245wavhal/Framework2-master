@@ -16,7 +16,6 @@ public class TestCase_Login extends BaseClass {
 	public void Logintest() {
 		app_logs.info("Entering username, password and sign on");
 		wp=new WelcomePage();
-		System.out.println("welcome");
 		wp.signin("tutorial", "tutorial");
 		ff=new FindaFlightPage();
 		Assert.assertTrue(ff.psgrCount.isDisplayed());
