@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Test Suite]">
+  <test name="Regression Tests(failed)">
+    <classes>
+      <class name="busyqa.testsuite_regression.TestCase_Login">
+        <methods>
+          <include name="init"/>
+          <include name="Logintest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- busyqa.testsuite_regression.TestCase_Login -->
+    </classes>
+  </test> <!-- Regression Tests(failed) -->
+</suite> <!-- Failed suite [Regression Test Suite] -->
